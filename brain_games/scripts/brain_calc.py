@@ -16,6 +16,7 @@ def calc_result(num1: int, sign: str, num2: int) -> int:
         res = num1 - num2
     return res
     
+
 def brain_calc(name: str):
     number_1, number_2, sign = None, None, None
     win_count = 0

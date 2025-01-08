@@ -35,8 +35,8 @@ def brain_gcd(name: str):
             print(f"Let's try again, {name}!")
             break
         else:
-             print('Correct!')
-             win_count += 1
+            print('Correct!')
+            win_count += 1
     
     if win_count == 3:
         print(f'Congratulations, {name}!')

@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "0.1.7"
+version = "0.1.8"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -25,3 +25,4 @@ brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"

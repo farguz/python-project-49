@@ -17,5 +17,8 @@ package-uninstall:
 	rm -r -f dist/
 	uv tool uninstall hexlet-code
 
-make lint:
+lint:
 	uv run ruff check brain_games
+
+lint with fix:
+	uv run ruff check --fix brain_games

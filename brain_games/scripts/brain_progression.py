@@ -41,7 +41,8 @@ def brain_progression(name: str):
         player_answer = prompt.integer('Your answer: ')
 
         if player_answer != right_answer:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")
+            print(f"'{player_answer}' is wrong answer ;(. \
+                  Correct answer was '{right_answer}'.")
             print(f"Let's try again, {name}!")
             break
         else:

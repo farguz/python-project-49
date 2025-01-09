@@ -32,7 +32,8 @@ def brain_calc(name: str):
         right_answer = calc_result(number_1, sign, number_2)
 
         if player_answer != right_answer:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.")
+            print(f"'{player_answer}' is wrong answer ;(. \
+                  Correct answer was '{right_answer}'.")
             print(f"Let's try again, {name}!")
             break
         else:

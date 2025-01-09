@@ -14,6 +14,8 @@ Use the command `build` to create executable files.
 Use the command `package-install` to install an application.
 Use the command `brain-xxx` to run a particular game. Instead of `xxx` use one of the above keywords, ex. `prime`.
 
+No minimal requirements
+
 
 [![asciicast](https://asciinema.org/a/5pnNNjV4Y77GlQPvri0Ww5UjE.svg)](https://asciinema.org/a/5pnNNjV4Y77GlQPvri0Ww5UjE)
 [![asciicast](https://asciinema.org/a/3zNLGgT5ffYSCDEyn9Fg9yvlh.svg)](https://asciinema.org/a/3zNLGgT5ffYSCDEyn9Fg9yvlh)

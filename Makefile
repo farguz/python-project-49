@@ -32,5 +32,5 @@ package-uninstall:
 lint:
 	uv run ruff check brain_games
 
-lint with fix:
+lint-with-fix:
 	uv run ruff check --fix brain_games

@@ -28,7 +28,7 @@ def brain_even(name: str):
 
         if player_answer != right_answer:
             print(f"'{player_answer}' is wrong answer ;(. \
-                  Correct answer was '{right_answer}'.")
+Correct answer was '{right_answer}'.")
             print(f"Let's try again, {name}!")
             break
         else:

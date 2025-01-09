@@ -1,6 +1,8 @@
-def check_user_answer(player_answer: int | str, right_answer: int | str, win_count: int, name: str) -> tuple:
+def check_user_answer(player_answer: int | str, right_answer: int | str,
+                      win_count: int, name: str) -> tuple:
     '''
-    The function checks the user's answer and if it is correct, increases the win counter by 1.
+    The function checks the user's answer.
+    If it is correct, increases the win counter by 1.
     ''' 
     flag = True
     if player_answer != right_answer:

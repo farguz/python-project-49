@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "0.1.10"
+version = "0.1.11"
 description = "Brain games app"
 authors = [
     {name = "farguz", email = "aaaaa@bb.cc"},

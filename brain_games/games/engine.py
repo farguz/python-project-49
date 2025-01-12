@@ -30,7 +30,8 @@ def game(start_text: str, name: str = 'PLAYER'):
                 print('Question:', ' '.join(question))
                 player_answer = ask_answer_int()
 
-            case 'Answer "yes" if given number is prime. Otherwise answer "no".':
+            case 'Answer "yes" if given number is prime. \
+Otherwise answer "no".':
                 question, right_answer = generate_number_prime()
                 print('Question:', question)
                 player_answer = ask_answer_str()

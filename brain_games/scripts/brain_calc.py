@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from brain_games.games.games_logic import brain_calc
+from brain_games.games.calc import brain_calc
 from brain_games.scripts.brain_games import greet
 
 

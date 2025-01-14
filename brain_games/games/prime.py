@@ -4,6 +4,8 @@ from brain_games.games.engine import game
 
 
 def is_prime(number: int) -> str:
+    if number == 1:
+        return 'yes'
     for i in range(2, number // 2 + 1):
         if number % i == 0:
             return 'no'

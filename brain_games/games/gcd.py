@@ -20,4 +20,4 @@ def calc_gcd() -> tuple:
 
 def brain_gcd(name: str):
     start_text = 'Find the greatest common divisor of given numbers.'
-    game(start_text, name, calc_gcd())  
+    game(start_text, name, calc_gcd)  

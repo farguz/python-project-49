@@ -35,6 +35,7 @@ def hide_one_num(progression: list) -> tuple:
     hidden_item = random.randint(1, len(progression) - 1)
     hidden_num = int(progression[hidden_item])
     progression[hidden_item] = '..'
+    progression = ' '.join(progression)
     return progression, hidden_num
 
 
@@ -57,7 +58,7 @@ def create_progression() -> tuple:
     
     res, answer = hide_one_num(res)
 
-    return res, answer
+    return res, str(answer)
 
 
 def check_user_answer(player_answer: int | str, right_answer: int | str,
@@ -89,12 +90,7 @@ def are_wins_enough(win_count: int) -> bool:
         return False
     
 
-def ask_answer_int() -> int:
-    player_answer = prompt.integer('Your answer: ')
-    return player_answer
-
-
-def ask_answer_str() -> str:
+def ask_answer() -> str:
     player_answer = prompt.string('Your answer: ')
     return player_answer
 
@@ -107,7 +103,7 @@ def generate_expression() -> tuple:
     sign = random.choice('+-*')
     expression = str(number_1) + ' ' + sign + ' ' + str(number_2)
     answer = calc_result(number_1, sign, number_2)
-    return expression, answer
+    return expression, str(answer)
 
 
 def generate_number_prime() -> tuple:
